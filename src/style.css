@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+}
+
+.heading, .slogan, .description{
+    margin: 10px 0px;
+}
+
+#introduction{
+    display: grid;
+    justify-items: center;
+    border-bottom: 3px solid black;
+}
+
+#buttons{
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border-bottom: 3px solid black;
+}
+
+.heading{
+    color: blue;
+
+}
+
+.slogan{
+    color: black;
+}
+
+.Intro{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 215px;
+}
+
+.IntroText{
+    padding: 120px;
+}
+
+.IntroPara{
+    margin-right: 220px;
+}
+
+.myIcon{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.divider{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dOne , .dTwo, .dThree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider h3{
+    margin: 0px;
+}
+
+.divider p{
+    margin: 5px;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.walletText{
+    text-align: center;
+    margin: 0px;
+}
+
+
+.swapImg{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.earnImg{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
