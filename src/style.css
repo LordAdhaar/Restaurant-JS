@@ -1,15 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+@font-face {
+    font-family: "hindi";
+    src: url(./SamarkanNormal-Gg5D.ttf);
+}
+
 body{
     margin: 0px;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.heading{
+    font-size: 3.5rem;
+    font-family: "hindi";
+    border-bottom: 5px solid white;
+
 }
 
 .heading, .slogan, .description{
     margin: 10px 0px;
+    color: white;
+
 }
 
 #introduction{
+    padding: 5px 0px;
     display: grid;
     justify-items: center;
     border-bottom: 3px solid black;
+    color: white;
+    background-color: black;
 }
 
 #buttons{
@@ -17,7 +40,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #bc0000;
     background:black ;
 }
 
@@ -25,33 +48,47 @@ body{
     background:black;
     border: 0px;
     color: white;
+    font-family: "MyFont", sans-serif;
+
+
 }
 
 .homepage{
     display: block;
     background-color:#00102d;
+    
 }
 
 .slogan{
-    color: black;
 }
 
 .Intro{
     display:flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 215px;
-    padding-bottom: 0px;
+    padding: 30px 215px;
+    padding-bottom: 15px;
     color: white;
 
 }
 
 .IntroText{
     padding: 120px;
+    
 }
 
 .IntroPara{
-    margin-right: 220px;
+    margin-right: 220px;    
+    color: #ffffffcf;
+    font-family: "Roboto",sans-serif;
+}
+
+.getStarted{
+    font-size: 1.5rem;
+    border-radius: 8px;
+    color: #00102d;
+    background: white;
+    border: 0px;
 }
 
 .myIcon{
@@ -76,6 +113,11 @@ body{
     color: white;
 }
 
+.dOne p, .dTwo p, .dThree p{
+    color: #ffffffcf;
+}
+
+
 .divider h3{
     margin: 0px;
 }
@@ -89,12 +131,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #00102d;
+    color: white;
 }
 
 .wallet{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.walletHeading{
+    font-weight: 100;
+    color:#ffffffcf;
+    margin: 10px;
 }
 
 .walletText{
@@ -105,11 +156,16 @@ body{
 .swap{
     display: flex;
     align-items: center;
+    justify-content: center;
+    background:#3b7cf8;
+    min-width: 100vw;
 }
 
 .swaptext{
     FONT-WEIGHT: 100;
     font-size: 30px;
+    font-family: "Roboto",sans-serif;
+
 }
 
 .swapImg{
@@ -122,12 +178,15 @@ body{
     display: flex;
     align-items: center;
     gap: 65px;
+    padding: 40px 0px;
 }
 
 .earnText{
     FONT-WEIGHT: 100;
     font-size: 30px;
     font-size: 25px;
+    font-family: "Roboto",sans-serif;
+
 }
 
 .earnImg{
@@ -138,11 +197,37 @@ body{
 
 .about{
     display: none;
-    padding: 20px 400px;
+    color: white;
+    background-color: #00102d;
 }
 
 .mission,.purpose{
     display: flex;
     justify-content: center;
     text-align: center;
+    
+}
+
+.missionHeading{
+    margin: 80px;
+    font-size: 1.5rem;
+}
+
+.purpose{
+    background-color: #3b7cf8;
+}   
+
+.purposeHeading{
+    margin: 60px 70px;
+    min-width: 100vw;
+    font-size: 1.5rem;
+}   
+
+.purposeText{
+    padding: 0px 170px;
+}
+
+.missionText, .purposeText{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.85rem;
 }

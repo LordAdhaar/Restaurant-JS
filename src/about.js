@@ -26,7 +26,7 @@ export default function about(){
     purposeText.classList.add("purposeText");
 
     // adding mission text
-    missionHeading.innerHTML="OUR MISSIION";
+    missionHeading.innerHTML="OUR MISSION";
     missionText.innerHTML="Accelerate the world's ascent to cryptocurrency.";
 
     purposeHeading.innerHTML="WHY IT MATTERS";
