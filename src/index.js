@@ -24,14 +24,26 @@ let homepage = document.querySelector(".homepage");
 let pro = document.querySelector(".pro");
 let aboutPage = document.querySelector(".about");
 
-function homeClicked(){
+homeButton.addEventListener("click",homeClicked);
+programmeButton.addEventListener("click",programmeClicked);
+aboutButton.addEventListener("click",aboutClicked);
 
+function homeClicked(){
+    homepage.style.display="block";
+    pro.style.display="none";
+    aboutPage.style.display="none";
 }
 
 function programmeClicked(){
+    pro.style.display = "flex";
+    homepage.style.display="none";
+    aboutPage.style.display="none";
 }
 
-function aboutLoader(){
+function aboutClicked(){
+    aboutPage.style.display="block";
+    pro.style.display="none";
+    homepage.style.display="none"; 
 }
 
 console.log(document.querySelector(".heading"),document.querySelector("h3"))

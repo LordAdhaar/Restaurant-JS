@@ -20,6 +20,18 @@ body{
     border-bottom: 3px solid black;
 }
 
+.homepage{
+    display: block;
+}
+
+.activateHomepage{
+
+}
+
+.deactivateHomepage{
+
+}
+
 .heading{
     color: blue;
 
@@ -71,14 +83,17 @@ body{
 }
 
 .pro{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .activatePro{
-    display: none;
+    
+}
+
+.deactivatePro{
 }
 
 .wallet{
@@ -127,7 +142,14 @@ body{
 }
 
 .about{
+    display: none;
     padding: 20px 400px;
+}
+
+.activateAbout{
+}
+
+.deactivateAbout{
 }
 
 .mission,.purpose{
