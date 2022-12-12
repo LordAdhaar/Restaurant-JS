@@ -60,13 +60,13 @@ export default function proLoader(){
     wallet.appendChild(walletText);
     
     //swap elements appending
+    swapHeading.appendChild(swapText);
     swap.appendChild(swapHeading);
-    swap.appendChild(swapText);
     swap.appendChild(mySwap);
 
     //appending earn elements
+    earnHeading.appendChild(earnText);
     earn.appendChild(earnHeading);
-    earn.appendChild(earnText);
     earn.appendChild(myEarn);
 
     pro.appendChild(wallet);

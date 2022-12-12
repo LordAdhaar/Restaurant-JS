@@ -77,6 +77,10 @@ body{
     justify-content: center;
 }
 
+.activatePro{
+    display: none;
+}
+
 .wallet{
     display: flex;
     flex-direction: column;
@@ -88,6 +92,15 @@ body{
     margin: 0px;
 }
 
+.swap{
+    display: flex;
+    align-items: center;
+}
+
+.swaptext{
+    FONT-WEIGHT: 100;
+    font-size: 30px;
+}
 
 .swapImg{
     width: 100%;
@@ -95,8 +108,30 @@ body{
     height: auto;
 }
 
+.earn{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.earnText{
+    FONT-WEIGHT: 100;
+    font-size: 30px;
+    font-size: 25px;
+}
+
 .earnImg{
     width: 100%;
     max-width: 300px;
     height: auto;
+}
+
+.about{
+    padding: 20px 400px;
+}
+
+.mission,.purpose{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
